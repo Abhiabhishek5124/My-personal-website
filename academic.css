@@ -1,0 +1,58 @@
+.EducationMain{
+    margin: 0;
+    padding: 0;
+
+}
+.EducationDescription{
+    margin: 1rem;
+    position: absolute;
+    color: #C5C6C7;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+
+}
+
+.stxavier{
+    opacity: 0.3;
+}
+
+.mygrades{
+    text-align: center;
+    margin-top: 4rem;
+}
+table{
+    margin-top: 3rem;
+    position: relative;
+    left: 21%;
+    z-index: 2;
+    width: 60%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(32,32,32,.3);
+    background-color:#C5C6C7;
+    text-align: center;
+    
+
+}
+
+th,td{
+    padding:12px 15px;
+}
+
+th{
+    color: #66FCF1;
+    text-transform: uppercase;
+
+
+}
+td{
+    color: #1F2833;
+}
+tr:nth-child(odd){
+    background-color: #C5C6C7;
+}
+
+

@@ -1,0 +1,89 @@
+.hobbies{
+    color: #66FCF1;
+    font-size: 50px;
+    font-weight: 1000;
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    text-decoration: underline;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    background-color:#C5C6C7;
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px;
+    margin: 5%;
+    border: 5px solid #66FCF1;
+
+}
+
+.card-image{
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+
+    border-radius: 15px 15px 0 0;
+
+}
+
+.card h2{
+    padding:10px;
+    color: #1F2833;
+    text-transform: uppercase;
+    font-weight: 1000;
+}
+
+.card p{
+    padding: 10px;
+    color: #1F2833;
+}
+
+.card a{
+    background-color: #0B0c10;
+    color: #66FCF1;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.card:hover{
+    background-color: #66FCF1;
+    color: #C5C6C7;
+    cursor: pointer;
+    transform:scale(1.03);
+    transition: all is ease;
+    border: 5px solid #66FCF1;
+
+}
+
+
+
+
+
+.footballImage{
+    background-image:url("images/Web/football.jpg"); 
+}
+
+.musicImage{
+    background-image: url("images/Web/flute.jpg");
+}
+
+.workoutImage{
+    background-image: url("images/Web/gym1.jpg");
+}
+
+.codingImage{
+    background-image: url("images/Web/coding.jpg");
+}
+
+
