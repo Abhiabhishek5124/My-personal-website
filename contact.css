@@ -1,15 +1,26 @@
-.main{
+.main_contact{
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    margin-right: 30px;
 
 }
 
-
-.container{
+h1{
+    font-size: 50px;
+   
+}
+.contact_img{
+    padding: 5px;
+    margin: 5px;
+    
+}
+.container_contact{
     border: #66FCF1 3px solid;
     margin:2rem;
     padding:2rem;
     border-radius: 10%;
+    margin-left: 0;
 
 }
 .contactme{
@@ -43,5 +54,12 @@
     background-color: #66FCF1;
     color: #0B0c10;
     font-weight: 1000;
+}
+
+.logocall{
+    color: #66FCF1;
+    padding: 10px;
+    margin: 10px;
+    letter-spacing: 2px;
 }
 

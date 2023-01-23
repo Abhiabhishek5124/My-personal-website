@@ -9,18 +9,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="hobbies.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="skills.css">
     
 <body>
-    <header class="flex row">
+    <header id="header" class="flex row">
         <div class="logo col" style="flex-grow: 4">
             <h2 style="color:66FCF1">AS</h2>
         </div>
         <nav class="col" style="flex-grow: 5">
             <div class="flex spaceBetween">
-                <a class="navContains" href="index.html">About</a>
-                <a class="navContains" href="hobbies.html">Hobbies</a>
-                <a class="navContains" href="academic.html">Academic</a>
-                <a class="navContains" href="contact.html">Contact</a>
+                <a class="navContains" href="#header">About</a>
+                <a class="navContains" href="#Hobbies">Hobbies</a>
+                <a class="navContains" href="#Skills">Skills</a>
+                <a class="navContains" href="#Contacts">Contact</a>
             </div>  
         </nav>
         <div class="col" style="flex-grow: 4;">
@@ -31,8 +34,8 @@
     <section class="section1" >
         
         <div class="intro1">
-            <p>Hey! I am Abhishek Shrestha.</p>
-            <p>Welcome to my profile</p>
+            <div id="typing1"></div>
+            <div id="typing2">Welcome to my profile</div>
         </div>
 
         <div class="image1">
@@ -50,8 +53,139 @@
         </div>
         <div class="aboutme">
             <h2>About me</h2>
-            <p>Hello world! I am Abhishek Shrestha from <a href="https://www.google.com/maps/place/Kathmandu+44600,+Nepal/data=!4m2!3m1!1s0x39eb198a307baabf:0xb5137c1bf18db1ea?sa=X&ved=2ahUKEwjEw82g1Ob0AhUYXM0KHS-1CZIQ8gF6BAgTEAE" style="color: #66FCF1;text-decoration: underline;"> Kathmandu, Nepal</a>. I am a freshman student at Northern Kentucky University majoring in Computer Science. I love mathematics and programming. Besides this, I am the person who wants to try many things in life. I have many hobies including playing soccer, building muscles, travelling etc.</p>
+            <p>Hello world! I am Abhishek Shrestha from <a href="https://www.google.com/maps/place/Kathmandu+44600,+Nepal/data=!4m2!3m1!1s0x39eb198a307baabf:0xb5137c1bf18db1ea?sa=X&ved=2ahUKEwjEw82g1Ob0AhUYXM0KHS-1CZIQ8gF6BAgTEAE" style="color: #66FCF1;text-decoration: underline;"> Kathmandu, Nepal</a>. I am a sophomore student at Northern Kentucky University majoring in Computer Science. I love mathematics and programming. Besides this, I am the person who wants to try many things in life. I have many hobies including playing soccer, working out, travelling etc.</p>
             <a href="final resume.docx.pdf" target="_blank"><button class="resume"> Download Resume</button></a>
+        </div>
+    </section>
+
+
+    <section id="Skills">
+        <div class="skills-container">
+            <h2>My Programming Language Skills</h2>
+            <ul>
+              <li>
+                <p>HTML & CSS</p>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 80%;"></div>
+                </div>
+                <h3>80%</h3>
+                <p>Java</p>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 60%;"></div>
+                </div>
+                <h3>60%</h3>
+              </li>
+              <li>
+                <p>Python</p>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 40%;"></div>
+                </div>
+                <h3>40%</h3>
+              </li>
+              <li>
+                <p>JavaScript</p>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 30%;"></div>
+                </div>
+                <h3>30%</h3>
+              </li>
+            </ul>
+          </div>
+    </section>
+
+    <section id="Hobbies">
+
+        <div class="hobbies">
+            Hobbies
+        </div>
+
+        <section class="container">
+            <div class="card">
+                <div class="card-image footballImage">
+                </div>
+                <h2>Football</h2>
+                <p>I started to play football since I was 10 years old. My favourite player is Lional Messi and favourite club is Barcelona.</p>
+                <a href="">Read More</a>
+            </div>
+
+            <div class="card">
+                <div class="card-image musicImage">
+                </div>
+                <h2>Music</h2>
+                <p>I love listening to music. The instruments that I play are flute and guitar.</p>
+                <a href="">Read More</a>
+            </div>
+            <div class="card">
+                <div class="card-image workoutImage">
+                </div>
+                <h2>Work Out</h2>
+                <p>Working out gives you time to work on yourself physically and mentally.</p>
+                <a href="">Read More</a>
+            </div>
+            <div class="card">
+                <div class="card-image codingImage">
+                </div>
+                <h2>Coding</h2>
+                <p>I feel like coding is working out of the brain. I love doing it.</p>
+                <a href="">Read More</a>
+            </div>
+
+        </section>
+
+        
+    </section>
+
+    <section id="Contacts">
+        
+        <div class="main_contact">
+            <div style="width: 35%;">
+                <div>
+                    <h1 class="contactme">
+                        Contact Me
+                    </h1>
+                </div>
+                <div class="contactDescription" >
+                    
+                    <div class="contact_img">
+                        <img src="images/Web/contact_me_pic.jpg" alt="" style="max-width: 100%;">
+                    </div>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone logocall"> +859 786 4583 </i>
+                </div>
+                
+            </div>
+            
+            <div class="container_contact">
+                
+                <div class="form">
+                    <form action="#" >
+                        <table>
+                            <tr>
+                                <td>
+                                    <label for="FirstName ">First Name</label><br>
+                                    <input class="FirstName white" type="text" name="FirstName" id="FirstName"><br>
+                                </td>
+                                <td>
+                                    <label for="LastName">Last Name</label><br>
+                                    <input class="LastName white" type="text" name="LastName" id="LastName"><br>
+                                </td>
+                            </tr> 
+                        </table> 
+                            
+                        <label for="Email">Email</label><br>
+                        <input class="Email white" type="text" name="Email" id="Email"><br>
+                    
+                        <label for="PhoneNumber">Phone Number</label><br>
+                        <input class="PhoneNumber white" type="number" name="PhoneNumber" id="PhoneNumber"><br>
+                    
+                        <label for="Comment">Comment or Message</label><br>
+                        <textarea class="comment white" type="text" name="Message" placeholder="Type your message here..."></textarea>
+                        <br>
+                        <input class="submit" type="submit" name="submit" value="Submit" style="cursor:pointer;">
+                    </form>
+                </div>
+            </div>  
         </div>
     </section>
 
@@ -85,8 +219,9 @@
     </footer>
 
 
-
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/2d40bf4fae.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/df96f5b411.js" crossorigin="anonymous"></script>
-
+    
 </body>
 </html>

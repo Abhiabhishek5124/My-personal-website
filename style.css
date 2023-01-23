@@ -5,7 +5,7 @@ font-family: 'Poppins',sans-serif;
 
 
 box-sizing: border-box;
-color: #C5C6C7;
+color: #f7f7f7;
 }
 
 body{
@@ -19,7 +19,13 @@ header{
 
 .navContains{
     text-decoration: none;
+    font-size: 16px;
+    transition: font-size 0.5s ease;
 }
+
+.navContains:hover {
+    font-size: 20px;
+  }
 
 .flex{
 display: flex;
@@ -69,7 +75,9 @@ footer{
 }
 
 .white{
-    border: 2px solid #C5C6C7;
+    border: 2px solid #66FCF1;
     border-radius: 2%;
 }
-
+ input{
+    color: #000000;
+ }
