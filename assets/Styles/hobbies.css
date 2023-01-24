@@ -72,20 +72,20 @@
 
 
 .footballImage{
-    background-image:url("images/Web/football.jpg"); 
+    background-image:url("../images/Web/football.jpg"); 
 }
 
 .musicImage{
-    background-image: url("images/Web/flute.jpg");
+    background-image: url("../images/Web/flute.jpg");
 }
 
 .workoutImage{
-    background-image: url("images/Web/gym1.jpg");
+    background-image: url("../images/Web/gym1.jpg");
     
 }
 
 .codingImage{
-    background-image: url("images/Web/coding.jpg");
+    background-image: url("../images/Web/coding.jpg");
 }
 
 

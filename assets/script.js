@@ -1,4 +1,6 @@
 
+
+// For typewriter animation
 function typeOut(element, message, index, interval) {
     if (index < message.length) {
         element.innerHTML += message.charAt(index);
@@ -7,6 +9,7 @@ function typeOut(element, message, index, interval) {
         }, interval);
     }
 }
+
 
 var element = document.getElementById("typing1");
 var message = "Hey! I am Abhishek Shrestha.";
@@ -19,16 +22,24 @@ setInterval(function(){
 }, 2000); // repeat every 2000 milliseconds (2 seconds)
 
 
-
-
-
-var btn = document.getElementById("btn");
-var text = document.getElementById("text");
-
-btn.addEventListener("click", function() {
-  if (text.style.display === "none") {
-    text.style.display = "block";
+// for mobile navigator
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
   } else {
-    text.style.display = "none";
+    x.style.display = "block";
   }
-});
+}
+
+
+
+
+
+
+
+
+
+
+
+
