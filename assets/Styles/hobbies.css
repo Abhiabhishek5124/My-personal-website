@@ -16,12 +16,12 @@
 }
 
 .card{
-    background-color:#f7f7f7;
+    background-color:#66FCF1;
     width: 270px;
     margin: 10px;
     border-radius: 15px;
     margin: 5%;
-    border: 5px solid #66FCF1;
+    border: 5px solid #0B0c10;
 
 }
 
@@ -30,7 +30,7 @@
     margin-bottom: 15px;
     background-size: cover;
 
-    border-radius: 15px 15px 0 0;
+    
 
 }
 
@@ -58,7 +58,7 @@
 }
 
 .card:hover{
-    background-color: #66FCF1;
+    background-color: #00877e;
     color: #C5C6C7;
     cursor: pointer;
     transform:scale(1.03);

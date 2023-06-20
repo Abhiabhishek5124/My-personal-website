@@ -30,22 +30,6 @@
     font-size: 1.5rem;
 
 }
-.resume{
-    color: #66FCF1;
-    border: 2px solid #66FCF1;
-    background-color: #0B0c10;
-    margin: 2px;
-    padding: 10px;
-    margin-top: 20px;
-    border-radius: 5%;
-    cursor: pointer;
-}
-
-.resume:hover{
-    background-color: #66FCF1;
-    color: #0B0c10;
-    font-weight: 1000;
-}
 
 .image1pic{
     border-radius: 50%;

@@ -14,46 +14,53 @@
     <link rel="stylesheet" href="Styles/skills.css">
     
 <body>
-    <header id="header" class="flex row">
-        <div class="logo col" style="flex-grow: 4">
-            <h2 style="color:66FCF1">AS</h2>
-        </div>
-        <nav class="col" style="flex-grow: 5">
-            <div id="myLinks" class="nav flex spaceBetween">
-                    <a class="navContains active" href="#header">About</a>
-            
-                    <a class="navContains" href="#Hobbies">Hobbies</a>
-                    <a class="navContains" href="#Skills">Skills</a>
-                    <a class="navContains" href="#Contacts">Contact</a>
-                    
-            </div>  
-            <a href="javascript:void(0);" id="menu_icon" class="icon" onclick=myFunction() >
-                <i class="fa fa-bars fa-2x"></i>
-            </a>
-
-            
-        </nav>
-
-        <div id="extra" class="col" style="flex-grow: 4;">
+    <div id="particles-js">
+        <header id="header" class="flex row">
+            <div class="logo col" style="flex-grow: 4">
+                <h2 style="color:66FCF1">AS</h2>
+            </div>
+            <nav class="col" style="flex-grow: 5">
+                <div id="myLinks" class="nav flex spaceBetween">
+                        <a class="navContains active" href="#header">About</a>
                 
+                        <a class="navContains" href="#Hobbies">Hobbies</a>
+                        <a class="navContains" href="#Skills">Skills</a>
+                        <a class="navContains" href="#Contacts">Contact</a>
+                        
+                </div>  
+                <a href="javascript:void(0);" id="menu_icon" class="icon" onclick=myFunction() >
+                    <i class="fa fa-bars fa-2x"></i>
+                </a>
+
+                
+            </nav>
+
+            <div id="extra" class="col" style="flex-grow: 4;">
+                    
+            </div>
+        </header>
+        <div class="header">
+            
+
+            <section class="section1" >
+                
+                <div class="intro1">
+                    <div id="typing1"></div>
+                    <div id="typing2">Welcome to my profile</div>
+                </div>
+
+                <div class="image1">
+                    <img class="image1pic" src="images/Web/main1.jpg" alt="" width="300px" >
+                </div>
+
+                
+
+            </section>
         </div>
-    </header>
-
-    <section class="section1" >
-        
-        <div class="intro1">
-            <div id="typing1"></div>
-            <div id="typing2">Welcome to my profile</div>
         </div>
-
-        <div class="image1">
-            <img class="image1pic" src="images/Web/main1.jpg" alt="" width="300px" >
-        </div>
-
-        
-
-    </section>
     <hr>
+
+
 
     <section class="section2">
         <div class="myimage2"> 
@@ -61,9 +68,23 @@
         </div>
         <div class="aboutme">
             <h2>About me</h2>
-            <p>Hello world! I am Abhishek Shrestha from <a href="https://www.google.com/maps/place/Kathmandu+44600,+Nepal/data=!4m2!3m1!1s0x39eb198a307baabf:0xb5137c1bf18db1ea?sa=X&ved=2ahUKEwjEw82g1Ob0AhUYXM0KHS-1CZIQ8gF6BAgTEAE" style="color: #66FCF1;text-decoration: underline;"> Kathmandu, Nepal</a>. I am a sophomore student at Northern Kentucky University majoring in Computer Science. I love mathematics and programming. Besides this, I am the person who wants to try many things in life. I have many hobies including playing soccer, working out, travelling etc.</p>
-            <a href="AbhishekShresthaResume_2022.docx.pdf" target="_blank"><button class="resume"> Download Resume</button></a>
-        </div>
+            <p id="intro">
+              My name is Abhishek Shrestha, and I hail from the beautiful city of Kathmandu, nestled in the majestic country of Nepal. Currently, I am a junior student pursuing a degree in Computer Science at Northern Kentucky University.
+            </p>
+            <p id="more" style="display: none;">
+              Ever since I was young, I have been captivated by the wonders of mathematics and the endless possibilities of programming. It fascinates me how these two disciplines intertwine and shape the world around us. Solving complex problems and delving into the realm of algorithms brings me immense joy and satisfaction.
+              <br><br>
+              However, I am not confined solely to the realm of academia. I have an insatiable curiosity and a deep desire to experience all that life has to offer. Exploring diverse passions is an integral part of who I am. When I'm not diving into the realm of code, you can find me on the soccer field, kicking the ball with enthusiasm and feeling the exhilaration of teamwork. Sports not only keep me physically active but also teach me invaluable lessons about perseverance, collaboration, and leadership.
+              <br><br>
+              Maintaining a healthy lifestyle is crucial to me, so I dedicate time to regular workouts. Pushing my limits in the gym and nurturing my physical well-being helps me find balance amidst the demands of academic life. Additionally, I find solace in travel, as it allows me to immerse myself in different cultures, broaden my perspective, and appreciate the beauty and diversity of our world.
+              <br><br>
+              In essence, I am an individual who embraces the wonders of knowledge and seeks personal growth through various avenues. Whether it's unraveling the complexities of a programming challenge, chasing after a soccer ball, sculpting my body, or exploring the far corners of our planet, I approach each endeavor with enthusiasm and dedication. I firmly believe that life is meant to be lived to the fullest, and I am committed to making the most of every opportunity that comes my way.
+              <br><br>
+              Thank you for taking the time to get to know me a little better. I look forward to connecting with fellow enthusiasts, collaborating on exciting projects, and embarking on new adventures together.
+            </p>
+            <button id="toggleButton" onclick="toggleContent()">Read More</button>
+            <a href="Resume_Abhishek_Shrestha.pdf" target="_blank"><button class="resume">Download Resume</button></a>
+          </div>
     </section>
 
 
@@ -215,6 +236,11 @@
                         <i class="fab fa-github fa-2x logo" ></i>
                     </a>
                 </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/abhishek-shrestha-946b60241/">
+                        <i class="fab fa-linkedin-in fa-2x logo"></i>
+                    </a>
+                </div>
         </div>
 
         <div class="copyright">
@@ -226,8 +252,9 @@
         </div>
     </footer>
 
-
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="script.js"></script>
+    <script src="sweet-scroll.min.js"></script>
     <script src="https://kit.fontawesome.com/2d40bf4fae.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/df96f5b411.js" crossorigin="anonymous"></script>
     
