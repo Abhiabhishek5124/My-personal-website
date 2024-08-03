@@ -27,7 +27,35 @@ header{
     left: 50%;
     margin: 0 auto;
     -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+    
+}
+
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0B0c10;
+    padding: 1rem;
+}
+
+.nav a {
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav a:hover {
+    background-color: #66FCF1;
+    color: #0B0c10;
+}
+
+#menu_icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
 }
 .navContains{
     text-decoration: none;
@@ -177,12 +205,14 @@ footer{
     .section1{
         background-color:#0B0c10;
     }
+    
   }
 
   @media(min-width:900px){
     footer{
         background-color:#0B0c10;
     }
+  
   }
   
   #particles-js {

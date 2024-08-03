@@ -1,7 +1,7 @@
 
 
 .section1{
-    margin-top: 2rem;
+    margin-top: 4rem;
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -88,5 +88,38 @@ footer{
     flex-direction: column;
     align-items: center;
     line-height: 2rem;
+}
+
+@media (max-width: 768px) {
+    .section1, .section2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutme {
+        width: 100%;
+        padding-left: 1rem;
+    }
+
+    .aboutme h2 {
+        font-size: 30px;
+    }
+
+    .aboutme p {
+        font-size: 18px;
+    }
+
+    .image1, .myimage2 {
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    #typing1 {
+        font-size: 2rem;
+    }
+
+    #typing2 {
+        font-size: 1.2rem;
+    }
 }
 
