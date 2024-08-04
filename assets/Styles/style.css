@@ -23,7 +23,7 @@ header{
     position: absolute;
     font-family: 'Rubik', sans-serif;
     width: 80%;
-    top: 50%;
+    top: 55%;
     left: 50%;
     margin: 0 auto;
     -webkit-transform: translate(-50%, -50%);
@@ -152,7 +152,7 @@ footer{
 
  @media (max-width: 600px) {
     body{
-        background-color: #a9b3c6;
+        
         box-sizing: border-box;
     }
       #menu_icon{
@@ -167,7 +167,6 @@ footer{
       }
       .nav {
         overflow: hidden;
-        background-color: #7f7f7f;
         position: relative;
       }
       
@@ -199,6 +198,32 @@ footer{
         background-color: #04a5aa;
         color: white;
       }
+      .main_contact {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main_contact > div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .container_contact {
+        width: 100%;
+    }
+
+    .form table {
+        width: 100%;
+    }
+
+    .form table td {
+        display: block;
+        width: 100%;
+    }
+
+    .form input, .form textarea {
+        width: 100%;
+    }
   }
 
   @media (min-width: 600px) and (max-width:900px) {
@@ -206,14 +231,10 @@ footer{
         background-color:#0B0c10;
     }
     
+    
   }
 
-  @media(min-width:900px){
-    footer{
-        background-color:#0B0c10;
-    }
   
-  }
   
   #particles-js {
     background: #000000;
